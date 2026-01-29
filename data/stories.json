@@ -1,42 +1,122 @@
 [
-  { "title": "The Infinite and the Divine", "author": "Robert Rath", "primaryFaction": "Necrons", "subFaction": "Nihilakh Dynasty", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/b/bc/InfiniteAndDivine.jpg", "description": "Trazyn the Infinite and Orikan the Divine are locked in a struggle that spans millennia." },
-  { "title": "Lion: Son of the Forest", "author": "Mike Brooks", "primaryFaction": "Dark Angels", "subFaction": "The Unforgiven", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/b/b3/LionSonOfTheForest.jpg", "description": "The Primarch returns to a galaxy of darkness and finds his lost sons." },
-  { "title": "The Emperor's Legion", "author": "Chris Wraight", "primaryFaction": "Custodes", "subFaction": "Adeptus Custodes", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/0/05/WatchersOfTheThroneTheEmperorsLegion.jpg", "description": "The Golden Guardians and the Silent Sisterhood defend the Throneworld." },
-  { "title": "Devastation of Baal", "author": "Guy Haley", "primaryFaction": "Blood Angels", "subFaction": "Sons of Sanguinius", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/0/0d/DevastationOfBaal.jpg", "description": "The entire Blood Angels lineage gathers to defend their home from Hive Fleet Leviathan." },
-  { "title": "Helsreach", "author": "Aaron Dembski-Bowden", "primaryFaction": "Black Templar", "subFaction": "Black Templars", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/c/c5/HelsreachNovel.jpg", "description": "Chaplain Grimaldus leads the defense of Hive Helsreach against the Ork Waaagh!." },
-  { "title": "Brutal Kunnin", "author": "Mike Brooks", "primaryFaction": "Orkz", "subFaction": "Bad Moons", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/7/7d/BrutalKunnin.jpg", "description": "Ufthak Blackhawk leads his ladz on a raid against a vital Adeptus Mechanicus forge world." },
-  { "title": "Ghazghkull Thraka", "author": "Nate Crowley", "primaryFaction": "Orkz", "subFaction": "Goffs", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/3/30/GhazNovel.jpg", "description": "The story of the greatest Warboss in the galaxy as told by his personal banner-bearer." },
-  { "title": "The Lords of Silence", "author": "Chris Wraight", "primaryFaction": "Death Guard", "subFaction": "The Lords of Silence", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/2/22/LordsOfSilence.jpg", "description": "A look at the inner workings and philosophical decay of a Death Guard warband." },
-  { "title": "Soul Hunter", "author": "Aaron Dembski-Bowden", "primaryFaction": "Chaos", "subFaction": "Night Lords", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/1/18/Soul_Hunter.jpg", "description": "The Night Lords struggle to survive in the wake of the Horus Heresy." },
-  { "title": "Betrayer", "author": "Aaron Dembski-Bowden", "primaryFaction": "Chaos", "subFaction": "World Eaters", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/b/ba/BetrayerNovel.jpg", "description": "The Shadow Crusade rages as Angron and Lorgar descend into madness." },
-  { "title": "The Carrion Throne", "author": "Chris Wraight", "primaryFaction": "Inquisition", "subFaction": "Ordo Hereticus", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/3/36/CarrionThrone.jpg", "description": "Inquisitor Crowl uncovers a dark conspiracy in the shadow of the Imperial Palace." },
-  { "title": "Gaunt's Ghosts", "author": "Dan Abnett", "primaryFaction": "Imperial Guard", "subFaction": "Tanith First", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/1/17/First_And_Only.jpg", "description": "Colonel-Commissar Ibram Gaunt leads the Tanith First and Only into the Sabbat Worlds." },
-  { "title": "Cadian Blood", "author": "Aaron Dembski-Bowden", "primaryFaction": "Imperial Guard", "subFaction": "Cadian 88th", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/4/4e/CadianBlood.jpg", "description": "When a shrine world falls to a plague, the Cadians are sent to reclaim it." },
-  { "title": "The Red Feast", "author": "Matthew Farrer", "primaryFaction": "Chaos", "subFaction": "World Eaters", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/a/a2/RedFeast.jpg", "description": "The tribal warriors of a primitive world are drawn into the path of the World Eaters." },
-  { "title": "Valedor", "author": "Guy Haley", "primaryFaction": "Aeldari", "subFaction": "Craftworld Iyanden", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/4/43/ValedorNovel.jpg", "description": "The Aeldari must prevent two Hive Fleets from merging and becoming unstoppable." },
-  { "title": "Fifteen Hours", "author": "Mitchel Scanlon", "primaryFaction": "Imperial Guard", "subFaction": "Astra Militarum", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/1/1a/15_Hours.jpg", "description": "A raw recruit learns the terrifying reality of life in the Imperial Guard." },
-  { "title": "Day of Ascension", "author": "Adrian Tchaikovsky", "primaryFaction": "Tyranids", "subFaction": "Genestealer Cults", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/6/61/DayOfAscension.jpg", "description": "A forge world is ripe for revolution as the Star Children approach." },
-  { "title": "Crisis of Faith", "author": "Phil Kelly", "primaryFaction": "Tau", "subFaction": "Farsight Enclaves", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/f/f7/FarsightCrisisOfFaith.jpg", "description": "Commander Farsight discovers truths that will change his Empire forever." },
-  { "title": "The Last Hunt", "author": "Robbie MacNiven", "primaryFaction": "Ultramarines", "subFaction": "White Scars", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/4/47/TheLastHunt.jpg", "description": "The White Scars hunt the Tyranid menace through a world of hunters." },
-  { "title": "The Emperor's Gift", "author": "Aaron Dembski-Bowden", "primaryFaction": "Grey Knights", "subFaction": "6th Brotherhood", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/9/91/TheEmperorsGift.jpg", "description": "The secret warriors of the Inquisition fight the First War for Armageddon." },
-  { "title": "Fulgrim", "author": "Graham McNeill", "primaryFaction": "Chaos", "subFaction": "Emperor's Children", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/d/df/Fulgrim.jpg", "description": "The tragedy of the Phoenix and his fall from perfection." },
-  { "title": "Storm of Iron", "author": "Graham McNeill", "primaryFaction": "Chaos", "subFaction": "Iron Warriors", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/e/e6/StormOfIron.jpg", "description": "A fortress world is besieged by the masters of siege warfare." },
-  { "title": "Path of the Warrior", "author": "Gav Thorpe", "primaryFaction": "Aeldari", "subFaction": "Craftworld Alaitoc", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/8/89/PathWarrior.jpg", "description": "An artist turns to the Path of the Warrior as the call of war beckons." },
-  { "title": "Genefather", "author": "Guy Haley", "primaryFaction": "Adeptus Mechanicus", "subFaction": "Belisarius Cawl", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/f/fe/Genefather.jpg", "description": "A battle of wits between Belisarius Cawl and Fabius Bile." },
-  { "title": "Warboss", "author": "Mike Brooks", "primaryFaction": "Orkz", "subFaction": "Blood Axes", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/2/23/WarbossNovel.jpg", "description": "The Orks of the Blood Axe clan vie for dominance in a brutal Waaagh!." },
-  { "title": "Assassinorum: Kingmaker", "author": "Robert Rath", "primaryFaction": "Inquisition", "subFaction": "Assassins", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/a/a2/AssKingmaker.jpg", "description": "Three assassins are sent to topple a planetary government on a Knight World." },
-  { "title": "Flesh and Steel", "author": "Guy Haley", "primaryFaction": "Inquisition", "subFaction": "Warhammer Crime", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/2/26/FleshAndSteel.jpg", "description": "A probator and an Adeptus Mechanicus investigator team up to solve a murder." },
-  { "title": "Dante", "author": "Guy Haley", "primaryFaction": "Blood Angels", "subFaction": "Blood Angels", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/e/e4/DanteNovel.jpg", "description": "The origin and rise of the legendary Commander of the Blood Angels." },
-  { "title": "Master of Sanctity", "author": "Gav Thorpe", "primaryFaction": "Dark Angels", "subFaction": "Dark Angels", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/9/93/MasterSanctity.jpg", "description": "The Interrogator-Chaplains hunt for the Fallen amidst secrets and shadows." },
-  { "title": "Gate of Bones", "author": "Andy Clark", "primaryFaction": "Custodes", "subFaction": "Indomitus Crusade", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/d/df/GateOfBones.jpg", "description": "The Indomitus Crusade hits a wall on the pilgrimage world of Gathalamor." },
-  { "title": "Fire Warrior", "author": "Simon Spurrier", "primaryFaction": "Tau", "subFaction": "Tau Empire", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/2/29/Fire_Warrior_Cover.jpg", "description": "A lone Shas'la fights for survival in a war zone gone wrong." },
-  { "title": "The Great Eat", "author": "Guy Haley", "primaryFaction": "Tyranids", "subFaction": "Tyranids", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/b/b5/GreatEat.jpg", "description": "A horrific glimpse into the sheer scale of a Tyranid invasion." },
-  { "title": "The King of the Spoil", "author": "Jonathan D. Beer", "primaryFaction": "Inquisition", "subFaction": "Necromunda", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/d/db/KingOfTheSpoil.jpg", "description": "Mystery and murder in the deepest levels of Hive Primus." },
-  { "title": "Execution Force", "author": "C.Z. Dunn", "primaryFaction": "Inquisition", "subFaction": "Assassins", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/d/da/Execution_Force_Novel.jpg", "description": "An Officio Assassinorum team attempts to kill a Chaos Sorcerer." },
-  { "title": "Grombrindal", "author": "David Guymer", "primaryFaction": "Leagues of Votann", "subFaction": "Leagues of Votann", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/b/ba/GromNovel.jpg", "description": "The ancient White Dwarf finds a place in the new age of the Votann." },
-  { "title": "Knight of Talassar", "author": "Graham McNeill", "primaryFaction": "Ultramarines", "subFaction": "Ultramarines", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/c/ca/KnightOfTalassar.jpg", "description": "Cato Sicarius fights to return from the warp and reclaim his honor." },
-  { "title": "The Last Council", "author": "Guy Haley", "primaryFaction": "Inquisition", "subFaction": "Horus Heresy", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/a/a2/LastCouncil.jpg", "description": "A high-stakes political drama set during the darkest days of the Heresy." },
-  { "title": "The Reverie", "author": "Peter Fehervari", "primaryFaction": "Chaos", "subFaction": "Chaos", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/1/14/ReverieNovel.jpg", "description": "Psychological horror as a Space Marine chapter begins to unspool." },
-  { "title": "Da Gobbo's Revenge", "author": "Ian St. Martin", "primaryFaction": "Orkz", "subFaction": "Gretchin", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/7/77/GobbosRevenge.jpg", "description": "A Red Gobbo leads a rebellion in the midst of a massive war." },
-  { "title": "Serpent and the Saint", "author": "Matthew Farrer", "primaryFaction": "Astra Sororitas", "subFaction": "Sisters of Battle", "coverImage": "https://wh40k.lexicanum.com/mediawiki/images/f/f6/SerpentSaint.jpg", "description": "A Sister of Battle is tasked with protecting a potential saint." }
+  {
+    "title": "The Infinite and the Divine",
+    "author": "Robert Rath",
+    "primaryFaction": "Necrons",
+    "subFaction": "Nihilakh Dynasty",
+    "coverImage": "https://covers.openlibrary.org/b/id/12547191-L.jpg",
+    "description": "A millennia-spanning game of cat and mouse between Trazyn and Orikan."
+  },
+  {
+    "title": "Lion: Son of the Forest",
+    "author": "Mike Brooks",
+    "primaryFaction": "Dark Angels",
+    "subFaction": "The Unforgiven",
+    "coverImage": "https://covers.openlibrary.org/b/id/13444031-L.jpg",
+    "description": "The Primarch returns to a galaxy of darkness and finds his lost sons."
+  },
+  {
+    "title": "The Emperor's Legion",
+    "author": "Chris Wraight",
+    "primaryFaction": "Custodes",
+    "subFaction": "Adeptus Custodes",
+    "coverImage": "https://covers.openlibrary.org/b/id/14555814-L.jpg",
+    "description": "The Golden Guardians and the Silent Sisterhood defend the Throneworld."
+  },
+  {
+    "title": "Helsreach",
+    "author": "Aaron Dembski-Bowden",
+    "primaryFaction": "Black Templar",
+    "subFaction": "Black Templars",
+    "coverImage": "https://covers.openlibrary.org/b/id/8233357-L.jpg",
+    "description": "Chaplain Grimaldus leads the defense of Hive Helsreach."
+  },
+  {
+    "title": "First and Only",
+    "author": "Dan Abnett",
+    "primaryFaction": "Imperial Guard",
+    "subFaction": "Tanith First",
+    "coverImage": "https://covers.openlibrary.org/b/id/14545041-L.jpg",
+    "description": "The Sabbat Worlds Crusade begins with Colonel-Commissar Ibram Gaunt."
+  },
+  {
+    "title": "Brutal Kunnin",
+    "author": "Mike Brooks",
+    "primaryFaction": "Orkz",
+    "subFaction": "Bad Moons",
+    "coverImage": "https://covers.openlibrary.org/b/id/13101150-L.jpg",
+    "description": "A massive Waaagh! descends upon a Forge World."
+  },
+  {
+    "title": "The Lords of Silence",
+    "author": "Chris Wraight",
+    "primaryFaction": "Death Guard",
+    "subFaction": "The Lords of Silence",
+    "coverImage": "https://covers.openlibrary.org/b/id/14555823-L.jpg",
+    "description": "A study of the decaying sons of Mortarion."
+  },
+  {
+    "title": "Dante",
+    "author": "Guy Haley",
+    "primaryFaction": "Blood Angels",
+    "subFaction": "Sons of Sanguinius",
+    "coverImage": "https://covers.openlibrary.org/b/id/14555810-L.jpg",
+    "description": "The life story of the oldest living Space Marine."
+  },
+  {
+    "title": "Soul Hunter",
+    "author": "Aaron Dembski-Bowden",
+    "primaryFaction": "Chaos",
+    "subFaction": "Night Lords",
+    "coverImage": "https://covers.openlibrary.org/b/id/8243160-L.jpg",
+    "description": "Talos and the scavengers of the VIII Legion fight for survival."
+  },
+  {
+    "title": "Fulgrim",
+    "author": "Graham McNeill",
+    "primaryFaction": "Chaos",
+    "subFaction": "Emperor's Children",
+    "coverImage": "https://covers.openlibrary.org/b/id/14545042-L.jpg",
+    "description": "The tragic descent of the III Legion into the arms of Slaanesh."
+  },
+  {
+    "title": "Storm of Iron",
+    "author": "Graham McNeill",
+    "primaryFaction": "Chaos",
+    "subFaction": "Iron Warriors",
+    "coverImage": "https://covers.openlibrary.org/b/id/8237554-L.jpg",
+    "description": "The ultimate siege on Hydra Cordatus."
+  },
+  {
+    "title": "Fifteen Hours",
+    "author": "Mitchel Scanlon",
+    "primaryFaction": "Imperial Guard",
+    "subFaction": "Astra Militarum",
+    "coverImage": "https://covers.openlibrary.org/b/id/14545043-L.jpg",
+    "description": "The life expectancy of a new recruit."
+  },
+  {
+    "title": "Crisis of Faith",
+    "author": "Phil Kelly",
+    "primaryFaction": "Tau",
+    "subFaction": "Farsight Enclaves",
+    "coverImage": "https://covers.openlibrary.org/b/id/14555831-L.jpg",
+    "description": "Commander Farsight leads an expedition to the Damocles Gulf."
+  },
+  {
+    "title": "The Emperor's Gift",
+    "author": "Aaron Dembski-Bowden",
+    "primaryFaction": "Grey Knights",
+    "subFaction": "6th Brotherhood",
+    "coverImage": "https://covers.openlibrary.org/b/id/14555835-L.jpg",
+    "description": "The secret heroes of Titan face the First War for Armageddon."
+  },
+  {
+    "title": "Ghazghkull Thraka",
+    "author": "Nate Crowley",
+    "primaryFaction": "Orkz",
+    "subFaction": "Goffs",
+    "coverImage": "https://covers.openlibrary.org/b/id/12660124-L.jpg",
+    "description": "The rise of the greatest Warboss."
+  }
 ]
