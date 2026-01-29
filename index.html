@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archivum Periodic | Lore Repository</title>
+    <title>Administratum Data-Vault v2.0</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="crt-overlay">
+<body>
+
+    <div class="crt-overlay"></div>
+
     <div class="container">
         <header>
-            <h1 class="glitch" data-text="ARCHIVUM PERIODIC">ARCHIVUM PERIODIC</h1>
-            <p>Accessing Segmentum Solar Lore Repository...</p>
-            <input type="text" id="searchBar" placeholder="Search by Faction, Title, or Author...">
+            <h1 class="glitch">ADMINISTRATUM LORE-VAULT</h1>
+            <p class="status-indicator">SYSTEM STATUS: OPTIMAL | SECTOR: GOTHIC</p>
+            
+            <input type="text" id="searchBar" placeholder="SEARCH ARCHIVE BY TITLE, AUTHOR, OR KEYWORD...">
         </header>
 
-        <main id="storyGrid" class="grid"></main>
+        <main id="storyGrid" class="grid">
+            <div class="loading-state">
+                <p>INITIALIZING SECURE LINK...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 41ST MILLENNIUM - PROPERTY OF THE HOLY INQUISITION</p>
+        </footer>
     </div>
 
     <script src="script.js"></script>
