@@ -1,0 +1,142 @@
+[
+  {
+    "title": "The Infinite and the Divine",
+    "author": "Robert Rath",
+    "primaryFaction": "Necrons",
+    "subFaction": "Nihilakh Dynasty",
+    "description": "A millennia-spanning game of cat and mouse between Trazyn the Infinite and Orikan the Diviner."
+  },
+  {
+    "title": "Crisis of Faith",
+    "author": "Phil Kelly",
+    "primaryFaction": "Tau",
+    "subFaction": "Farsight Enclaves",
+    "description": "Commander Farsight leads an expedition to the Damocles Gulf and begins to question the Ethereal Caste."
+  },
+  {
+    "title": "Devastation of Baal",
+    "author": "Guy Haley",
+    "primaryFaction": "Blood Angels",
+    "subFaction": "Sons of Sanguinius",
+    "description": "The entire Blood Angels chapter and their successors stand against the might of Hive Fleet Leviathan."
+  },
+  {
+    "title": "The Last Hunt",
+    "author": "MacNiven",
+    "primaryFaction": "Tyranids",
+    "subFaction": "Hive Fleet Kraken",
+    "description": "White Scars must outmaneuver the rapid evolution of a Tyranid splinter fleet."
+  },
+  {
+    "title": "The Emperor's Legion",
+    "author": "Chris Wraight",
+    "primaryFaction": "Custodes",
+    "subFaction": "Adeptus Custodes",
+    "description": "The Golden Guardians of Terra step out from the Palace as the Great Rift opens."
+  },
+  {
+    "title": "Brutal Kunnin",
+    "author": "Mike Brooks",
+    "primaryFaction": "Orkz",
+    "subFaction": "Bad Moons",
+    "description": "Ufthak Blackhawk leads a massive Waaagh! against a Forge World, seen from the Ork perspective."
+  },
+  {
+    "title": "The Emperor's Gift",
+    "author": "Aaron Dembski-Bowden",
+    "primaryFaction": "Grey Knights",
+    "subFaction": "6th Brotherhood",
+    "description": "The secret history of the Grey Knights during the First War for Armageddon."
+  },
+  {
+    "title": "Helsreach",
+    "author": "Aaron Dembski-Bowden",
+    "primaryFaction": "Black Templar",
+    "subFaction": "Black Templars",
+    "description": "Grimaldus leads the defense of a hive city against an endless tide of Orks."
+  },
+  {
+    "title": "Lion: Son of the Forest",
+    "author": "Guy Haley",
+    "primaryFaction": "Dark Angels",
+    "subFaction": "The Unforgiven",
+    "description": "The Primarch Lion El'Jonson returns to a galaxy he no longer recognizes."
+  },
+  {
+    "title": "The Lords of Silence",
+    "author": "Chris Wraight",
+    "primaryFaction": "Death Guard",
+    "subFaction": "The Lords of Silence",
+    "description": "A deep look into the decaying philosophy and brutal warfare of Mortarion's sons."
+  },
+  {
+    "title": "The Red Feast",
+    "author": "Matthew Farrer",
+    "primaryFaction": "World Eaters",
+    "subFaction": "World Eaters",
+    "description": "The origins of Kharn and the descent of the XII Legion into Khorne's madness."
+  },
+  {
+    "title": "Valedor",
+    "author": "Guy Haley",
+    "primaryFaction": "Aeldari",
+    "subFaction": "Craftworld Iyanden",
+    "description": "Aeldari and Drukhari must unite to prevent two Tyranid Hive Fleets from merging."
+  },
+  {
+    "title": "Fifteen Hours",
+    "author": "Mitchel Scanlon",
+    "primaryFaction": "Imperial Guard",
+    "subFaction": "Astra Militarum",
+    "description": "A grim look at the life expectancy of a new recruit in the trenches of the 41st millennium."
+  },
+  {
+    "title": "Day of Ascension",
+    "author": "Adrian Tchaikovsky",
+    "primaryFaction": "Tyranids",
+    "subFaction": "Genestealer Cults",
+    "description": "A revolutionary uprising on a Forge World turns into a nightmare as the 'Angels' arrive."
+  },
+  {
+    "title": "Dante",
+    "author": "Guy Haley",
+    "primaryFaction": "Blood Angels",
+    "subFaction": "Blood Angels",
+    "description": "The life story of the oldest living Space Marine and the burden of command."
+  },
+  {
+    "title": "Master of Sanctity",
+    "author": "Gav Thorpe",
+    "primaryFaction": "Dark Angels",
+    "subFaction": "The Hunt for the Fallen",
+    "description": "The Inner Circle goes to extreme lengths to capture one of the Fallen."
+  },
+  {
+    "title": "Ghazghkull Thraka: Prophet of the Waaagh!",
+    "author": "Nate Crowley",
+    "primaryFaction": "Orkz",
+    "subFaction": "Goffs",
+    "description": "The rise of the greatest Warboss in the galaxy, told by his favorite Grot."
+  },
+  {
+    "title": "Gate of Bones",
+    "author": "Andy Clark",
+    "primaryFaction": "Custodes",
+    "subFaction": "Adeptus Custodes",
+    "description": "Custodes and Imperial Guard defend a vital pilgrimage world from Chaos."
+  },
+  {
+    "title": "Fire Warrior",
+    "author": "Simon Spurrier",
+    "primaryFaction": "Tau",
+    "subFaction": "Tau Empire",
+    "description": "A lone Shas'la must survive a nightmare mission against the forces of Chaos."
+  },
+  {
+    "title": "Gaunt's Ghosts: First and Only",
+    "author": "Dan Abnett",
+    "primaryFaction": "Imperial Guard",
+    "subFaction": "Tanith First and Only",
+    "description": "The beginning of the legendary Sabbat Worlds Crusade through the eyes of Colonel-Commissar Gaunt."
+  }
+]
