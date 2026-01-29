@@ -1,53 +1,42 @@
-let loreData = []; // Start with an empty array
+let loreData = [];
 
-const storyGrid = document.getElementById('storyGrid');
-const searchBar = document.getElementById('searchBar');
-
-// 1. Fetch the data from your local file
+// Load Data
 async function loadLoreData() {
-    try {
-        const response = await fetch('data/stories.json');
-        if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        loreData = await response.json();
-        displayStories(loreData); // Initial render
-    } catch (error) {
-        console.error('Error loading the Administratum files:', error);
-        storyGrid.innerHTML = `<p style="color: red;">DATA CORRUPTION DETECTED: Unable to load stories.</p>`;
-    }
+    const response = await fetch('data/stories.json');
+    loreData = await response.json();
+    renderFactionGrid(); // Show factions first
 }
 
-// 2. The Display Logic (remains mostly the same)
-function displayStories(stories) {
-    if (stories.length === 0) {
-        storyGrid.innerHTML = `<p>No records found in the Archivum.</p>`;
-        return;
-    }
+// 1. Render the Grid of Factions
+function renderFactionGrid() {
+    const factions = [...new Set(loreData.map(s => s.primaryFaction))];
+    const grid = document.getElementById('storyGrid');
     
-    storyGrid.innerHTML = stories.map(story => `
-        <div class="card">
-            <span class="faction-tag">${story.primaryFaction}</span>
-            <h3>${story.title}</h3>
-            <p><strong>Author:</strong> ${story.author}</p>
-            <p class="sub-faction"><em>Sub-faction: ${story.subFaction}</em></p>
-            <p class="description">${story.description}</p>
+    grid.innerHTML = factions.map(faction => `
+        <div class="faction-card" onclick="showFactionStories('${faction}')">
+            <h2>${faction}</h2>
+            <p>View Data-Files</p>
         </div>
     `).join('');
 }
 
-// 3. The Search Logic
-searchBar.addEventListener('keyup', (e) => {
-    const searchString = e.target.value.toLowerCase();
-    const filteredStories = loreData.filter(story => {
-        return (
-            story.title.toLowerCase().includes(searchString) ||
-            story.primaryFaction.toLowerCase().includes(searchString) ||
-            story.author.toLowerCase().includes(searchString)
-        );
-    });
-    displayStories(filteredStories);
-});
+// 2. Filter stories when faction is clicked
+function showFactionStories(faction) {
+    const filtered = loreData.filter(s => s.primaryFaction === faction);
+    const grid = document.getElementById('storyGrid');
+    
+    // Add a "Back" button
+    let html = `<button onclick="renderFactionGrid()" class="back-btn">← Return to Archivum</button>`;
+    
+    html += filtered.map(story => `
+        <div class="card">
+            <h3>${story.title}</h3>
+            <p><strong>Author:</strong> ${story.author}</p>
+            <p>${story.description}</p>
+        </div>
+    `).join('');
+    
+    grid.innerHTML = html;
+}
 
-// Initialize the app
 loadLoreData();
