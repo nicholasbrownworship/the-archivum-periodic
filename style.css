@@ -1,70 +1,137 @@
 :root {
     --terminal-green: #1aff1a;
     --dark-bg: #050805;
-    --border-color: #004400;
+    --card-bg: rgba(0, 20, 0, 0.6);
+    --glow: 0 0 12px rgba(26, 255, 26, 0.4);
+    --header-font: 'Courier New', Courier, monospace;
 }
 
 body {
     background-color: var(--dark-bg);
     color: var(--terminal-green);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--header-font);
     margin: 0;
     padding: 20px;
-    overflow-x: hidden;
+    line-height: 1.6;
 }
 
-/* Scanline Effect Overlay */
+/* Scanline/CRT Effect Overlay */
 .crt-overlay::before {
     content: " ";
     display: block;
     position: fixed;
     top: 0; left: 0; bottom: 0; right: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
-                linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.15) 50%), 
+                linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
     background-size: 100% 4px, 3px 100%;
     pointer-events: none;
-    z-index: 10;
+    z-index: 100;
 }
 
-.container { max-width: 1000px; margin: 0 auto; }
+.container { max-width: 1200px; margin: 0 auto; }
+
+/* Header & Search */
+header { text-align: center; margin-bottom: 40px; }
+.glitch { font-size: 3rem; text-shadow: var(--glow); margin: 0; }
 
 #searchBar {
-    width: 100%;
-    padding: 15px;
-    background: transparent;
-    border: 2px solid var(--terminal-green);
+    width: 80%;
+    padding: 12px;
+    background: black;
+    border: 1px solid var(--terminal-green);
     color: var(--terminal-green);
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    box-shadow: 0 0 10px var(--border-color);
+    font-family: var(--header-font);
+    box-shadow: var(--glow);
+    margin-top: 20px;
 }
 
+/* Faction Landing Grid */
+.faction-card {
+    border: 2px solid var(--terminal-green);
+    padding: 50px 20px;
+    text-align: center;
+    cursor: pointer;
+    background: var(--card-bg);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.faction-card:hover {
+    background: var(--terminal-green);
+    color: var(--dark-bg);
+    box-shadow: 0 0 20px var(--terminal-green);
+}
+
+/* Story Book Cards */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 25px;
 }
 
 .card {
     border: 1px solid var(--terminal-green);
-    padding: 20px;
-    background: rgba(0, 20, 0, 0.3);
-    transition: transform 0.2s, box-shadow 0.2s;
-    position: relative;
+    background: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Clips the book cover */
+    transition: transform 0.3s;
 }
 
-.card:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0 15px var(--terminal-green);
-    background: rgba(0, 40, 0, 0.5);
+.card:hover { transform: translateY(-5px); }
+
+/* Book Cover Styling */
+.book-cover {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Keeps aspect ratio clean */
+    border-bottom: 1px solid var(--terminal-green);
+    filter: sepia(0.5) hue-rotate(80deg) brightness(0.8); /* Gives it a "terminal" tint */
 }
+
+.card:hover .book-cover {
+    filter: none; /* Shows full color on hover */
+}
+
+.card-content { padding: 15px; }
 
 .faction-tag {
+    font-size: 0.7rem;
+    border: 1px solid var(--terminal-green);
+    padding: 2px 5px;
+    margin-bottom: 10px;
     display: inline-block;
+}
+
+/* QR Code Placeholders */
+.external-links {
+    margin-top: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0,0,0,0.5);
+    border-top: 1px dashed var(--terminal-green);
+}
+
+.qr-placeholder {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--terminal-green);
+    font-size: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+.back-btn {
     background: var(--terminal-green);
     color: var(--dark-bg);
-    padding: 2px 8px;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
     font-weight: bold;
-    margin-bottom: 10px;
     text-transform: uppercase;
 }
